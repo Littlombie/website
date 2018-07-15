@@ -760,3 +760,6 @@ html,body {
     color: #e46948 !important;
     border-color: #e46948;
 }
+canvas {
+    z-index: 1 !important;
+}
