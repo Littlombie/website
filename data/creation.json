@@ -1,0 +1,99 @@
+{
+  "result": [
+    {
+      "belong": "pc",
+      "item": [
+        {
+          "name": "好运来",
+          "img": "1.jpg",
+          "url": "http://www.haoyunlai.com.cn/"
+        },
+        {
+          "name": "好相亲",
+          "img": "2.jpg",
+          "url": "http://xmhxq.com/"
+        },
+        {
+          "name": "好一朵茉莉花",
+          "img": "4.jpg",
+          "url": "http://www.jasminemelody.com/"
+        },
+        {
+          "name": "一墨品牌",
+          "img": "3.jpg",
+          "url": "http://adbd.com.cn/"
+        },
+        {
+          "name": "彤堡机电",
+          "img": "6.jpg",
+          "url": "http://topmfg.cn/"
+        },
+        {
+          "name": "怀高企业",
+          "img": "8.jpg",
+          "url": "http://huaigao.net/"
+        },
+        {
+          "name": "怀高企业（直购平台）",
+          "img": "5.jpg",
+          "url": "http://huaigao.net/mall/"
+        },
+        {
+          "name": "天力卡拉优",
+          "img": "6.jpg",
+          "url": "http://caiano.cn/"
+        }
+      ]
+    },
+    {
+      "belong": "mobile",
+      "item": [
+        {
+          "name": "红房子（移动端）",
+          "img": "3.jpg",
+          "url": "http://red-space.cn/mobile/"
+        },
+        {
+          "name": "好运来菜单餐厅",
+          "img": "3.jpg",
+          "url": "http://www.haoyunlai.com.cn/menu/"
+        },
+        {
+          "name": "巧力美画册",
+          "img": "3.jpg",
+          "url": "http://www.chocoleme.cn/pictureAlbum/"
+        },
+        {
+          "name": "怀高微官网",
+          "img": "3.jpg",
+          "url": "http://huaigao.net/mobile/"
+        }
+      ]
+    },
+    {
+      "belong": "H5",
+      "item": [
+        {
+          "name": "好运来福卡",
+          "img": "5.jpg",
+          "url": "http://www.haoyunlai.com.cn/greetingCard/"
+        },
+        {
+          "name": "红房子22周年",
+          "img": "7.jpg",
+          "url": "http://red-space.cn/H5/2017/22Anniversary/"
+        },
+        {
+          "name": "好运来中秋节",
+          "img": "5.jpg",
+          "url": "http://funca.org/Mid-Autumn/"
+        },
+        {
+          "name": "好运来年礼桶",
+          "img": "5.jpg",
+          "url": "http://funca.org/newYear/"
+        }
+      ]
+    }
+  ]
+}
