@@ -136,6 +136,8 @@
     ];
 
     var canvas = document.getElementById('canvas');
+    let len = 0;
+    var colorArray = ["#3BE", "#09C", "#A6C", "#93C", "#9C0", "#690", "#FB3", "#F80", "#F44", "#C00"];
 
     if (canvas.getContext) {
         var cxt = canvas.getContext('2d');
@@ -161,12 +163,18 @@
 
         /*生成点阵数字*/
         function renderDigit(index, num) {
+            len += 5;
+            let selectC = Math.floor(Math.random() * 10)
             for (var i = 0; i < digit[num].length; i++) {
                 for (var j = 0; j < digit[num][i].length; j++) {
                     if (digit[num][i][j] == 1) {
                         cxt.beginPath();
                         cxt.arc(14 * (R + 2) * index + j * 2 * (R + 1) + (R + 1), i * 2 * (R + 1) + (R + 1), R, 0, 2 * Math.PI);
                         cxt.closePath();
+                        if (len > 20000) {
+                            len = 0;
+                        }
+                        cxt.fillStyle = colorArray[selectC +1];
                         cxt.fill();
                     }
                 }
@@ -209,7 +217,6 @@
         /*增加要运动的小球*/
         function addBalls(index, num) {
             var numArray = [1, 2, 3];
-            var colorArray = ["#3BE", "#09C", "#A6C", "#93C", "#9C0", "#690", "#FB3", "#F80", "#F44", "#C00"];
             for (var i = 0; i < digit[num].length; i++) {
                 for (var j = 0; j < digit[num][i].length; j++) {
                     if (digit[num][i][j] == 1) {
@@ -251,8 +258,8 @@
             updateDigitTime();
             //更新小球状态
             updateBalls();
-            //渲染
-            render();
+                //渲染
+                render();
         }, 50);
     }
 

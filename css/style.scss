@@ -292,3 +292,17 @@ canvas {
     position: relative;
     z-index: 9 !important;
 }
+
+#canvas {
+
+    position: absolute;
+    top: 20px;
+    right: 3vw;
+
+}
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    position: relative;
+    z-index: 999;
+
+}
