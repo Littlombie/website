@@ -140,6 +140,8 @@ $(function() {
     // }
 
 });
+
+//  头部进度条
 (function() {
     // progress
     var wh = document.documentElement.offsetHeight;

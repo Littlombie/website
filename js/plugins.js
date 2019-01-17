@@ -59,7 +59,12 @@ if (typeof Object.create !== 'function') {
                 if (typeof self.options.beforeStart === 'function') {
                     self.options.beforeStart();
                 }
+                console.log(link.hash);
+                // if () {
 
+                // } else {
+                    
+                // }
                 self.setActiveLink(link.hash);
                 
                 self.scrollTo($elem, function() { 
@@ -75,7 +80,10 @@ if (typeof Object.create !== 'function') {
                         self.options.onComplete();
                     }
                 });                            
-            }     
+            } else {
+                // console.log(link.href);
+                window.open(link.href);
+            }    
         },
         
         scrollTo: function($elem, callback) {
@@ -144,7 +152,7 @@ if (typeof Object.create !== 'function') {
         getCurrentSection: function(scrollPos) {
             var i, hash, coords, section;
             
-            for (i = 0; i < this.$links.length; i++) {
+            for (i = 0; i < this.$links.length - 1 ; i++) {
                 hash = this.$links[i].hash;
                 
                 if ($(hash).length) {
